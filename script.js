@@ -1,8 +1,16 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+var createBtn = document.querySelector("#createBtn");
 var passwordOpt = document.querySelector("#passOpt");
-var specialChar = ["!", "?", "@", "$", "&", "*"];
+var passLength = document.querySelector("#passLength").value;
+
+var specialChar = ["!", "?", "@", "$", "%", "&", "*"];
 var letterArr = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+
+var checkNumber = document.querySelector("#includeNum");
+var checkLwrLetter = document.querySelector("lwrCase");
+var checkUprLetter = document.querySelector("uprCase");
+var checkSpeChar = document.querySelector("speChars");
 
 // Write password to the #password input
 function writePassword() {
@@ -12,8 +20,13 @@ function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
+  function generatePassword() {
+    
+  }
+
   passwordText.value = password;
 
+  createBtn.addEventListener("click", generatePassword);
 }
 
 // Add event listener to generate button
