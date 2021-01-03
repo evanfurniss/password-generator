@@ -10,6 +10,8 @@ Users can utilize this tool to quickly create secure passwords while creating ac
 
 ## Resources
 
+w3schools's HTML DOM articles were incredibly helpful in the building of this application.
+
 ## Repository Links
 
 https://github.com/evanfurniss/password-generator
@@ -17,3 +19,9 @@ https://github.com/evanfurniss/password-generator
 evanfurniss.github.io/password-generator/
 
 ## Images
+
+<img src="pics/base.png">
+<br>
+<img src="pics/min-success.png">
+<br>
+<img src="pics/max-success.png">
