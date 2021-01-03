@@ -16,7 +16,7 @@ w3schools's HTML DOM articles were incredibly helpful in the building of this ap
 
 https://github.com/evanfurniss/password-generator
 
-<a src="https://evanfurniss.github.io/password-generator/">evanfurniss.github.io/password-generator/</a>
+https://evanfurniss.github.io/password-generator/
 
 ## Images
 
